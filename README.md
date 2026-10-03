@@ -1,26 +1,43 @@
 # Kaizen
 
-    A clean portfolio reconstruction created from the project's documented feature set.
+A public portfolio implementation of Kaizen, focused on lightweight task planning, focus sessions, and progress tracking.
 
-    ## Run locally
+## Overview
 
-    ```bash
-    npm install
-    npm run dev
-    ```
+Kaizen is a clean, minimal productivity interface designed to streamline daily work habits through clear task tracking, structured focus sessions, and immediate progress visibility.
 
-    ## Build
+## Features
 
-    ```bash
-    npm run build
-    ```
+- **Task Creation & Management:** Rapidly add, organize, and prioritize daily tasks.
+- **Task Completion & Tracking:** Interactive completion states with real-time feedback.
+- **Progress Visibility:** Visual task progress metrics and completion percentages.
+- **Adjustable Focus Sessions:** Configurable timer durations for focused study or work intervals.
+- **Responsive Dashboard:** Adaptive interface optimized for desktop and mobile workflows.
+- **Local Suggestion Logic:** The public portfolio version uses deterministic local suggestion logic and does not require an external AI API.
 
+## Tech Stack
 
-## Portfolio notes
-- Task planning and completion tracking
-- Adjustable focus timer
-- Local “AI-style coach” demo logic
-- Responsive productivity dashboard
+- **Frontend:** React, TypeScript
+- **Tooling & Build:** Vite
+- **Styling:** CSS
 
-No API key is included. The coach behavior is intentionally local and deterministic for a public repository.
+## Demo
 
+A hosted demo has not been added yet.
+
+## Screenshots
+
+> TODO: Add a real screenshot from the running application.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
